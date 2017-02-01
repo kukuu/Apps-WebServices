@@ -1,8 +1,8 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-# React Tutorial
 
-This is the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html).
+# text Chat
+
+This is the React run time based application
 
 ## To use
 
@@ -44,7 +44,7 @@ cpan Mojolicious
 perl server.pl
 ```
 
-And visit <http://localhost:3000/>. Try opening multiple tabs!
+And visit <http://localhost:3040/>. Try opening multiple tabs!
 
 ## Changing the port
 
