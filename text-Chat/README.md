@@ -1,6 +1,6 @@
 
 
-# text Chat
+# textChat
 
 This is the React run time based application
 
