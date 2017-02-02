@@ -44,7 +44,7 @@
 	* Extend applications features by creating a Student class to be modelled inside the address
 	*/
 	
-	class ClassName Student{
+	class  Student{
 		public $first_name = "";
 		public $last_name = "";
 		public $age = "";
