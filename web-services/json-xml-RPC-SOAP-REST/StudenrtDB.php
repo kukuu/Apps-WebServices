@@ -25,8 +25,7 @@
 
 		//create a constructor that will build all the objects properties
 		function __construct($first_name, $last_name, $email, $street, $state, $zip, $phone,
-			$birth_date, $sex, $date_entered, $lunch_cost, $student_id){
-			
+			$birth_date, $sex, $date_entered, $lunch_cost, $student_id){	
 			// initialise all the objects created (object instantiation)
 			$this->first_name = $first_name;
 			$this->last_name = $last_name;
@@ -41,8 +40,6 @@
 			$this->lunch_cost = $lunch_cost;
 			$this->student_id = $student_id;
 		}
-
-
 	}
 
 ?>
