@@ -108,7 +108,7 @@
 
 	//we fetch result if there are from database
 	if($result = $dbc->query($query)){
-		//while there are results 'keep getting'
+		//while we get results we will keep asking for 'more' from the database 
 		while($obj = $result->fetch_objec()) {
 			# code...
 			//print the headers (13 strings in our case)
