@@ -103,7 +103,7 @@
 	//Query for just the first 2 students(12:10 0f 16:44 remaining)
 	$query = "select * from students where student_id IN (1,2)";
 
-	//create an array to store our result from the database
+	//create an array to hold our data from the database
 	$student_array = array();
 
 	//we fetch result if there are from database
