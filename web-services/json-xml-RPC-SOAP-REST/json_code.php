@@ -41,8 +41,7 @@
 	}
 
 	/**
-	* Extend applications features by creating a Student class
-	to be modelled inside the address
+	* Extend applications features by creating a Student class to be modelled inside the address
 	*/
 	
 	class ClassName Student{
