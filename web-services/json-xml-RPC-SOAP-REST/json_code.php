@@ -50,12 +50,12 @@
 		public $age = "";
 		public $enrolled = false;
 		public $married = null;
-		//since addresses can consiste of multiple lines we model it
-		//around a single property. Interface segreagation
-		//create an instance of the address class above
+		//since addresses can consists of multiple lines we model it
+		//around a single object property -  Interface segreagation
+		//create an instance of the address class above (line 75)
 		public $address = "";
-		//same as above. can have different types of phones so we
-		//is parsed as an Array to the constructor
+		//same as above. can have different types of phones 
+		//create an array data for it in the constructor (line 77)
 		public $phone;
 		
 		//create a constructor that will build all the objects properties
