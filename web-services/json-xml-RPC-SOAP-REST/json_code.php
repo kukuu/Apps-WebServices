@@ -86,9 +86,9 @@
 
 	echo "<br /><br />";
 
-	//Now we can take this raw data and encode it into json
+	//Now we can take this raw data and decode using json_decode()
 	//pass the instantiated object as argumnet to json_encode method
-	$lucatrinca_data = json_decode($luca_trinca)
+	$lucatrinca_data = json_encode($luca_trinca)
 
 	//Next step we can use real data from the database
 	require_once("mysqli_connect.php");
@@ -96,7 +96,7 @@
 	//we check if we have connection to the database
 	//if we do not  then we expect the error handler to function
 	if(mysqli_connect_error()){
-		printf("",mysqli_connect_error());
+		printf("Connect failed: %s\n",mysqli_connect_error());
 		exit();
 	}
 	//otherwise we have a connection to the database . so we can send query
