@@ -9,7 +9,7 @@
 	require_once('StudentDB');
 
 	/**
-	* Now to code a json string in a format we can use for the applicatio we decode the string and convert into a php array
+	*  Decode the string and convert into a php array
 	*/
 
 	
