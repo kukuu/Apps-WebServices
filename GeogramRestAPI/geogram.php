@@ -52,7 +52,7 @@
 		//  ?lat=
 		//	&lng=
 		//	&client_id=
-		// Use your own client_id key. Register at instagram andget a key!
+		// Use your own client_id key. Register at instagram!
 		$instagram_url = 'https://api.instagram.com/v1/media/search?=lat'.$lat.'$lng='.$lng.'$client_id=59cd273f121d4139b97a8a027a993ddf';
 
 		//now we pass this URL to the php file_get_contents function to get a json and decode it into PHP array as previous
@@ -78,7 +78,7 @@
 
 			<!--we build php template to loop through the algoritm  and return the images
 				Wrap the loop in a conditional loop ( if clause) to first check if the API call has (successful) images before loading-->
-				
+
 			<?php
 				//foreach ($instagram_array['data'] as  $image) {
 					# code...
