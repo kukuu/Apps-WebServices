@@ -3,7 +3,7 @@
 // Application Type : Web Service:  
 // Use content-type headers to indicate who is receiving the application
 	//header('content-type: application/json');
-	//we comented the above statement as we are printing all to screen
+	//Comented the above statement as I am printing all to screen
 
 	//Now we grab the StudentDB class 
 	require_once('StudentDB');
