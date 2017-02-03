@@ -74,7 +74,7 @@
 			//write less lines of code
 			$this->address = new Address($street, $city, $state);
 			//encapsulat $phone into an array
-			$this->phone = array('home' => $phone,
+			$this->phone = array('home' => $ph_home,
 			'mobile'=>$ph_mobile );
 
 		}
