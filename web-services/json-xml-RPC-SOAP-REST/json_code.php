@@ -112,12 +112,13 @@
 		//while we get results we will keep asking for 'more' from the database: 
 		while($obj = $result->fetch_objec()) {
 			# code...
+			//Set up output template
 			//print the headers (13 strings in our case)
 			//and match them with the appropriate data
 			printf("%s %s %s %s %s %s %s %s %s %s %s %s %s <br />",
 				$obj->first_name, $obj->last_name, $obj->first_name, $obj->email, $obj->street, $obj->city, $obj->state, $obj->zip, $obj->phone, $obj->birth_date, $obj->sex, $obj->date_entered, $obj->lunch_cost, $obj->student_id);
 
-			//we create a student object which we convert into jason
+			//we create a student object (instantiate student class)  which we convert into jason
 			$temp_student = new StudentDB($obj->first_name, $obj->last_name, $obj->first_name, $obj->email, $obj->street, $obj->city, $obj->state, $obj->zip, $obj->phone, $obj->birth_date, $obj->sex, $obj->date_entered, $obj->lunch_cost, $obj->student_id);
 
 			//store in an array
