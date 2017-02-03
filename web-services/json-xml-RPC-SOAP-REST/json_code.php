@@ -86,7 +86,7 @@
 
 	echo "<br /><br />";
 
-	//Now we can take this raw data and decode using json_decode()
+	//Now we can take this raw data and encode into  json data
 	//pass the instantiated object as argumnet to json_encode method
 	$lucatrinca_data = json_encode($luca_trinca)
 
