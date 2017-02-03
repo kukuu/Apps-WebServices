@@ -99,8 +99,9 @@
 		printf("Connect failed: %s\n",mysqli_connect_error());
 		exit();
 	}
-	//otherwise we have a connection to the database . so we can send query
-	//Query for just the first 2 students(12:10 0f 16:44 remaining)
+
+	//otherwise we have a connection to the database. so we can send query
+	//Querying for just the first 2 students
 	$query = "select * from students where student_id IN (1,2)";
 
 	//create an array to hold our data from the database
@@ -108,7 +109,7 @@
 
 	//we fetch result if there are from database
 	if($result = $dbc->query($query)){
-		//while we get results we will keep asking for 'more' from the database 
+		//while we get results we will keep asking for 'more' from the database: 
 		while($obj = $result->fetch_objec()) {
 			# code...
 			//print the headers (13 strings in our case)
