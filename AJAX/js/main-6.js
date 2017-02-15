@@ -87,11 +87,14 @@ function renderHTML(data){
 
 	for(i = 0; i < data.length; i++){
 
-		//each dimensional array will be associated with a for loop.
 	//adding returned record to our pre-set empty string
-		htmlString += "<p>" + data[i].name + " is a " + data[i].species + " that likes to eat ";
+		htmlString += "<p>" + data[i].name + " is a " + data[i].species + ".</p>";
+	}
 
-		// next, we will extract data from multi-dimensional array from an object
+	//We begin our loop of our Array of item objects
+	animalContainer.insertAdjacentHTML("beforeend", htmlString);
+
+	// next, we will extract data from multi-dimensional array from an object
 	// of this type:
 	/*
 
@@ -103,58 +106,11 @@ function renderHTML(data){
       "dislikes": ["ham", "zucchini"]
     }
 	*/
-		//Next nested for loop, using ii instead
-		for(ii = 0 ; ii < data[i].foods.likes.length ; ii++){
-			//Finally we seem to have a problem with spacing following
-			//evaluating the multidimensional array.
-			//we fix it be checking for the existence of a multi dimensional array
-			// and then introducing a blank white space before adding the additional data.
-			// We do this by wraping the final output statement in the nested for loop
-			//in an if statement.
 
+	//each dimensional array will be associated with a for loop.
 
-			//if it is the first like item then no space needed
-			if (ii == 0){
-				htmlString += data[i].foods.likes[ii];
-			}
-
-			//otherwise if there are additional data arrays
-			//then add a spacing
-			else {
-				htmlString +=  " and " + data[i].foods.likes[ii];
-			}
-			
-		}
-
-		//we create a similar concat string and a for loop for the 
-		//dislikes array of data
-
-		htmlString += ' and dislikes ';
-
-		// we repeat the for loop for dislikes
-		for(ii = 0 ; ii < data[i].foods.dislikes.length ; ii++){
-			
-
-
-			//if it is the first like item then no space needed
-			if (ii == 0){
-				htmlString += data[i].foods.dislikes[ii];
-			}
-
-			//otherwise if there are additional data arrays
-			//then add a spacing
-			else {
-				htmlString +=  " and " + data[i].foods.dislikes[ii];
-			}
-			
-		}
-
-
-		htmlString += '.</p>'
-	}
-
-	//We begin our loop of our Array of item objects
-	animalContainer.insertAdjacentHTML("beforeend", htmlString);
+	
+	
 
 }
 

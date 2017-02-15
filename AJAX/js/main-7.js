@@ -104,52 +104,19 @@ function renderHTML(data){
     }
 	*/
 		//Next nested for loop, using ii instead
+
 		for(ii = 0 ; ii < data[i].foods.likes.length ; ii++){
-			//Finally we seem to have a problem with spacing following
-			//evaluating the multidimensional array.
-			//we fix it be checking for the existence of a multi dimensional array
-			// and then introducing a blank white space before adding the additional data.
-			// We do this by wraping the final output statement in the nested for loop
-			//in an if statement.
-
-
-			//if it is the first like item then no space needed
-			if (ii == 0){
-				htmlString += data[i].foods.likes[ii];
-			}
-
-			//otherwise if there are additional data arrays
-			//then add a spacing
-			else {
-				htmlString +=  " and " + data[i].foods.likes[ii];
-			}
-			
+			htmlString += data[i].foods.likes[ii];
 		}
 
-		//we create a similar concat string and a for loop for the 
-		//dislikes array of data
-
-		htmlString += ' and dislikes ';
-
-		// we repeat the for loop for dislikes
-		for(ii = 0 ; ii < data[i].foods.dislikes.length ; ii++){
-			
-
-
-			//if it is the first like item then no space needed
-			if (ii == 0){
-				htmlString += data[i].foods.dislikes[ii];
-			}
-
-			//otherwise if there are additional data arrays
-			//then add a spacing
-			else {
-				htmlString +=  " and " + data[i].foods.dislikes[ii];
-			}
-			
-		}
-
-
+		//Finally we seem to have a problem with spacing following
+//evaluating the multidimensional array.
+//we fix it be checking for the existence of a multi dimensional array
+// and then introducing a blank white space before adding the additional data.
+// We do this by wraping the final output statement in the nested for loop
+//in an if statement.
+		
+		
 		htmlString += '.</p>'
 	}
 
@@ -157,5 +124,7 @@ function renderHTML(data){
 	animalContainer.insertAdjacentHTML("beforeend", htmlString);
 
 }
+
+
 
 
