@@ -1,0 +1,92 @@
+[
+    {
+        "fname": "Trisha",
+        "lname": "Diriwachter",
+        "tel": "(463)952-5900",
+        "address": "1379 Sit Ln",
+        "city": "Stoneham",
+        "state": "TN",
+        "zip": 89043
+    },
+    {
+        "fname": "Marina",
+        "lname": "Dellabadia",
+        "tel": "(361)340-3314",
+        "address": "6916 Ipsum St",
+        "city": "Eagle Pass",
+        "state": "VA",
+        "zip": 96892
+    },
+    {
+        "fname": "Chunlei",
+        "lname": "Salter",
+        "tel": "(257)336-0755",
+        "address": "2192 Lacus Ave",
+        "city": "Bellefontaine",
+        "state": "WI",
+        "zip": 70296
+    },
+    {
+        "fname": "Gazi",
+        "lname": "Haiduke",
+        "tel": "(729)039-9021",
+        "address": "2234 Magna Rd",
+        "city": "El Dorado Hills",
+        "state": "KY",
+        "zip": 13972
+    },
+    {
+        "fname": "Lei",
+        "lname": "Campos",
+        "tel": "(313)326-0901",
+        "address": "8686 Tincidunt Ct",
+        "city": "Pittsburg",
+        "state": "WY",
+        "zip": 55335
+    },
+    {
+        "fname": "Edwin",
+        "lname": "Oliva",
+        "tel": "(832)382-8163",
+        "address": "4869 Libero Dr",
+        "city": "Douglasville",
+        "state": "DE",
+        "zip": 24326
+    },
+    {
+        "fname": "Regina",
+        "lname": "Schuplin",
+        "tel": "(969)786-6132",
+        "address": "194 Sagittis Ln",
+        "city": "Gaithersburg",
+        "state": "ND",
+        "zip": 24092
+    },
+    {
+        "fname": "Hazel",
+        "lname": "Heitzman",
+        "tel": "(644)937-1365",
+        "address": "5481 Curabitur Rd",
+        "city": "Freehold",
+        "state": "HI",
+        "zip": 74678
+    },
+    {
+        "fname": "Rob",
+        "lname": "Breuninger",
+        "tel": "(589)511-8104",
+        "address": "7164 Vitae Rd",
+        "city": "Hazel Park",
+        "state": "NY",
+        "zip": 71438
+    },
+    {
+        "fname": "Dante",
+        "lname": "Grimsley",
+        "tel": "(538)066-2268",
+        "address": "2838 Scelerisque Rd",
+        "city": "Saugus",
+        "state": "SC",
+        "zip": 20365
+    }
+]
