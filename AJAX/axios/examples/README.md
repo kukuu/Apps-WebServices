@@ -2,8 +2,7 @@
 
 To run the examples:
 
-1. `git clone https://github.com/mzabriskie/axios.git`
-2. `npm install`
-3. `grunt build`
-4. `npm run examples`
-5. [http://localhost:3000](http://localhost:3000)
+1. `npm install`
+2. `grunt build`
+3. `npm run examples`
+4. [http://localhost:3020](http://localhost:3020)
