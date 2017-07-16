@@ -30,9 +30,9 @@ btn.addEventListener("click",function(){
 	var ourRequest = new XMLHttpRequest;
 	//We can GET data from the server or POST  data to it. In our case we ar getting
 	//we use the open() http method which accepts 2 arguments HTTP VERB  and URL to the resource.
-	//ourRequest.open('GET','https://learnwebcode.github.io/json-example/animals-' + pageCounter + '.json'); 
+	ourRequest.open('GET','https://learnwebcode.github.io/json-example/animals-' + pageCounter + '.json'); 
 
-	ourRequest.open('GET','https://github.com/kukuu/Apps-WebServices/tree/master/AJAX/js/animals-' + pageCounter + '.json'); 
+	//ourRequest.open('GET','http://github.com/kukuu/Apps-WebServices/tree/master/AJAX/js/animals-' + pageCounter + '.json'); 
 
 	
 
