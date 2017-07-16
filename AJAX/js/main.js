@@ -30,7 +30,11 @@ btn.addEventListener("click",function(){
 	var ourRequest = new XMLHttpRequest;
 	//We can GET data from the server or POST  data to it. In our case we ar getting
 	//we use the open() http method which accepts 2 arguments HTTP VERB  and URL to the resource.
-	ourRequest.open('GET','https://learnwebcode.github.io/json-example/animals-' + pageCounter + '.json'); 
+	//ourRequest.open('GET','https://learnwebcode.github.io/json-example/animals-' + pageCounter + '.json'); 
+
+	ourRequest.open('GET','https://github.com/kukuu/Apps-WebServices/tree/master/AJAX/js/animal-' + pageCounter + '.json'); 
+
+	
 
 	//Now we have to fabricate the data. what should happen when data is loaded. we assign it to an annonymous
 	//function and process the data. For sake of best practices first console.log it
@@ -46,7 +50,7 @@ btn.addEventListener("click",function(){
 		//task lets log out the first object set in the array
 
 		//**************//
-			// We bbuild a function to render the html and the data. This function is 
+			// We build a function to render the html and the data. This function is 
 			//created outside the event listener and referenced here.
 			//we pass the variable ourData as signature to the function
 			renderHTML(ourData);
@@ -76,7 +80,7 @@ function renderHTML(data){
 	//variable animalContainer. Using it as set point to 
 	//traverse through the Object data model of the json object data
 	//we use the "insertAdjacentHTML" DOM Method and add elements just before the end of this element "beforeend".
-	//the next argument will be the dta to be inserted
+	//the next argument will be the data to be inserted
 	//animalContainer.insertAdjacentHTML("beforeend"," 1234");
 	
 	//let us create a variable  and store the data into it. Pointing to it from within our function
