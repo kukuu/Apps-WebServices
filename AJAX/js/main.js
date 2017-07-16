@@ -32,7 +32,7 @@ btn.addEventListener("click",function(){
 	//we use the open() http method which accepts 2 arguments HTTP VERB  and URL to the resource.
 	//ourRequest.open('GET','https://learnwebcode.github.io/json-example/animals-' + pageCounter + '.json'); 
 
-	ourRequest.open('GET','https://github.com/kukuu/Apps-WebServices/tree/master/AJAX/js/animal-' + pageCounter + '.json'); 
+	ourRequest.open('GET','https://github.com/kukuu/Apps-WebServices/tree/master/AJAX/js/animals-' + pageCounter + '.json'); 
 
 	
 
