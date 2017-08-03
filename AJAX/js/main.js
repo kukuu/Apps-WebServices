@@ -157,7 +157,7 @@ function renderHTML(data){
 		htmlString += '.</p>'
 	}
 
-	//We begin our loop of our Array of item objects
+	//We begin our loop of our Array of item objects, and insert into container.
 	animalContainer.insertAdjacentHTML("beforeend", htmlString);
 
 }
