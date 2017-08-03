@@ -23,7 +23,7 @@
 		public $lunch_cost = "";
 		public $student_id = "";
 
-		//create a constructor that will build all the objects properties.
+		//create a constructor function that will build all the objects properties.
 		function __construct($first_name, $last_name, $email, $street, $state, $zip, $phone,
 			$birth_date, $sex, $date_entered, $lunch_cost, $student_id){	
 			// initialise all the objects created (object instantiation)
