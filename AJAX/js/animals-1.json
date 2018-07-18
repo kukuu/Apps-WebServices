@@ -22,5 +22,13 @@
       "likes": ["mice"],
       "dislikes": ["cookies"]
     }
+  },
+  {
+    "name": "Barboo",
+    "species" : "dog",
+    "foods": {
+      "likes": ["spices", "carrots"],
+      "dislikes": ["honey"]
+    }
   }
 ]
