@@ -30,5 +30,13 @@
       "likes": ["spices", "carrots"],
       "dislikes": ["honey"]
     }
+  },
+  {
+    "name": "Baboon",
+    "species" : "mankind",
+    "foods": {
+      "likes": ["fruits", "protein"],
+      "dislikes": ["fish"]
+    }
   }
 ]
