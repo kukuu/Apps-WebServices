@@ -11,7 +11,7 @@ var r = new XMLHttpRequest();
 //4	DONE	The operation is complete.
 r.open("GET", "http://www.filltext.com?rows=10&f={firstName}", true);
 r.onreadystatechange = function () {
-  //XMLHttp ready states
+  //XMLHttp ready states 0 to 4
   if (r.readyState != 4 || r.status != 200) return;
   var data = JSON.parse(r.responseText);
   for (i=0;i<data.length;i++){
