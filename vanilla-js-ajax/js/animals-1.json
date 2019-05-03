@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Meowsy",
+    "species" : "cat",
+    "foods": {
+      "likes": ["tuna", "catnip"],
+      "dislikes": ["ham", "zucchini"]
+    }
+  },
+  {
+    "name": "Barky",
+    "species" : "dog",
+    "foods": {
+      "likes": ["bones", "carrots"],
+      "dislikes": ["tuna"]
+    }
+  },
+  {
+    "name": "Purrpaws",
+    "species" : "cat",
+    "foods": {
+      "likes": ["mice"],
+      "dislikes": ["cookies"]
+    }
+  },
+  {
+    "name": "Barboo",
+    "species" : "dog",
+    "foods": {
+      "likes": ["spices", "carrots"],
+      "dislikes": ["honey"]
+    }
+  },
+  {
+    "name": "Baboon",
+    "species" : "mankind",
+    "foods": {
+      "likes": ["fruits", "protein"],
+      "dislikes": ["fish"]
+    }
+  }
+]
