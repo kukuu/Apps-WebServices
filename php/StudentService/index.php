@@ -1,7 +1,7 @@
 <?php
 require "Person.php";
 
-//Instantiate Person class
+//Instantiate Person class. Create an object
 
 $person = new Person("Luca", 33);
 
