@@ -34,6 +34,7 @@
 		$maps_url = 'https://maps.googleapis.com/maps/api/geocode/json?address'.urlencode($_GET['location']);
 
 		// pass this as argument to file_get_content. Store into a variable i.e $maps_json
+		// For purposes of security, do not use file_get_contents() in production.
 		$maps_json = file_get_contents($maps_url);
 
 		// to be able to use the json this needs to be passed into  php array using json_decode
