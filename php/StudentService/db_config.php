@@ -1,6 +1,6 @@
 <?php
-	define(("USER", "root"); //Data base user name
-	define("PASSWORD", "");// Data base password
-	define("DATABSE", "studentservice");
+	define(("USER", "root"); //Database user name
+	define("PASSWORD", "");// Database password
+	define("DATABSE", "studentservice");//Note database name is case sensitive
 	define("server", "alexdb07");
 ?>
