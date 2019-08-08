@@ -1,6 +1,7 @@
 <?php
 	
 	/**
+	Author - Alexander Adu-Sarkodie
 	Connection class for authentication and access to database
 	* 
 	*/
