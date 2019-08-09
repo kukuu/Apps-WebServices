@@ -8,7 +8,7 @@
 
 			if(ConnectionManager::connection == null)
 				{
-					ConnectionManager::connection = new Connection();
+					ConnectionManager::connection = new Connection();//Instantiate new connection
 					return ConnectionManager::connection ;
 				}
 		}
