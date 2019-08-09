@@ -14,7 +14,7 @@
 		}
 
 		private function __construct(){
-			//private constructor so no one can instantiate morethan one connection. A singleton.
+			//private constructor so no one can instantiate more than one connection. A singleton.
 		}
 
 		private function __clone(){
