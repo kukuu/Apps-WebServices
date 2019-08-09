@@ -5,7 +5,7 @@
 	
 	require_once '../ConnectionManager.php';
 
-	$response =  array();
+	$response =  array();//initialise result. Array type
 
 	//Connecting to MySQL database
 	//Singleton function
@@ -13,9 +13,9 @@
 
 	$result = mysql_query("Select from Student") or die(mysql_error());
 
-	if(mysql_num_rows($result) > 0)
+	if(mysql_num_rows($result) > 0) 
 	{
-		$response['student'] = array();
+		$response['student'] = array(); //populate arrary from $response = array() to $response['student']= array()
 
 		while($row = mysql_fetch_array($result))
 		{
