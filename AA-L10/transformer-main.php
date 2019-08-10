@@ -3,7 +3,6 @@
 // Alexander Adu-Sarkodie
 //This is a  prototypical imlementation
 //The XML is inserted further below as a string
-//I couldn't download the XML file so using the example from the  instruction page. The DOWNLOAD  failed twice.
 // Parts of the application can be extrapulated as includes to facilitate re-usability
 
 class XmlElement {
