@@ -16,6 +16,7 @@ Directory Structure
 		=>=> config
 		=>=> model
 		===> Front end API
+		===> Snapshots : Visuals using Postman client to request data from API.
 
 
 ## Features of the application
