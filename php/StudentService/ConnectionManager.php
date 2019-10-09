@@ -14,11 +14,11 @@
 		}
 
 		private function __construct(){
-			//private constructor so no one can instantiate more than one connection. A singleton.
+			//Security caution  - private constructor so no one can instantiate more than one connection. A singleton.
 		}
 
 		private function __clone(){
-			//private clone, so no one could clone the connection!
+			//Security caution - private clone, so no one could clone the connection!
 		}
 
 	}
