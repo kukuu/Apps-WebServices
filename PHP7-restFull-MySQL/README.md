@@ -4,14 +4,13 @@
 
 ## Directory Structure
 
-	```
-	=>PHP7-restFull-MySQL
-
-		=>=> config
-		=>=> model
-		===> Front end API
-		===> Snapshots : Visuals using Postman client to request data from API.
-	```
+```
+	PHP7-restFull-MySQL
+		config
+		model
+		Front end API
+		Snapshots : Visuals using Postman client to request data from API.
+```
 
 ### Features of the application
 
