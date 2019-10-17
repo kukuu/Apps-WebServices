@@ -34,7 +34,7 @@
 	//Make call to DB and fetch
 	if( num > 0 ){
 		$posts_arr = array();
-		$posts_arr['data'] =  arra();
+		$posts_arr['data'] =  array();
 
 		while( $row = $result->fetch()) {
 
