@@ -49,11 +49,11 @@
 				'body' => $html_entity_decode($body),
 				'author' => $author,
 				'category_id' => $category_id,
-				'category_name' => $category_name //from join table
+				'category_name' => $category_name //from join table. See model
 			);
 
 			//push to 'data' as php array
-			array_push($post_att['data']. $post_item);
+			array_push($post_arr['data']. $post_item);
 		}
 
 		//Turn to JSON & output
