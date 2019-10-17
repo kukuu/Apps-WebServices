@@ -1,4 +1,4 @@
-# PHP7 REST API ufrom scratch with Mysql Database read
+# PHP7 REST API from scratch with Mysql Database read
 
  Features - https://github.com/kukuu/PHP7 
 
