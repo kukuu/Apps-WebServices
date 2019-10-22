@@ -79,5 +79,18 @@ class PostController extends Controller
 	}
 
 
+	/*
+		** Remove the specified resource from storage
+		*
+		**@param int $id
+		@return \Illumunate\Http\Response
+	*/
 
+	public function destroy($id)
+	{
+		$post = Post::find($id);
+		$post->delete();
+
+		return redirect('/posts')->with('success', 'Post Removed');
+	}
 }
