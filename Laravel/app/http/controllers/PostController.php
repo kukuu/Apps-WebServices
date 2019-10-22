@@ -33,6 +33,16 @@ class PostController extends Controller
 		return view('posts.create');
 	}
 
+	public function store(Request, $request)
+	{
+		$this->calidate($request, [
+			'title' => 'required',
+			'body' => 'required'
+		]);
+		
+		return 123;
+	}
+
 
 
 }
