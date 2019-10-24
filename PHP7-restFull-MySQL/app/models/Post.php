@@ -11,7 +11,7 @@
 		//DB Stuff
 
 		private $conn;
-		private $table;
+		private $table = 'posts';
 
 		//Post properties
 		public $id;
